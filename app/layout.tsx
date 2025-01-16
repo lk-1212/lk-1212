@@ -2,22 +2,22 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import { Roboto, Lora, Montserrat } from 'next/font/google';
+import { Roboto, Lora, Montserrat } from "next/font/google";
 
 const roboto = Roboto({
-  subsets: ['latin'], // Specify character subsets
-  weight: ['400', '700'], // Add font weights
-  style: ['normal', 'italic'], // Add styles if needed
+  subsets: ["latin"], // Specify character subsets
+  weight: ["400", "700"], // Add font weights
+  style: ["normal", "italic"], // Add styles if needed
 });
 
 const lora = Lora({
-  subsets: ['latin'],
-  weight: ['400'],
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['400'],
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 const geistSans = Geist({
@@ -43,8 +43,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-      // {`${geistSans.variable} ${geistMono.variable} antialiased`}
-      style={{background: 'rgb(214 211 209 / var(--tw-bg-opacity, 1))', color: 'rgb(0 0 0 / var(--tw-text-opacity, 1))'}}
+        // {`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+          background: "rgb(214 211 209 / var(--tw-bg-opacity, 1))",
+          color: "rgb(0 0 0 / var(--tw-text-opacity, 1))",
+        }}
         className={`${roboto.className} ${lora.className} ${montserrat.className}`}
       >
         {children}
