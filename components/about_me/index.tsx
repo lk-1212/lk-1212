@@ -12,9 +12,6 @@ const AboutMe = ():React.ReactElement => {
 
     const renderaAbout = (): React.ReactElement => {
         return <div className='text-3xl' dangerouslySetInnerHTML={{__html: ABOUT_ME}} />
-                {/* <p>{ABOUT_ME}</p> */}
-            {/* </div> */}
-        
     }
     return(
         <div className='flex flex-col items-center'>
