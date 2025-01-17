@@ -6,7 +6,7 @@ export const SOCIALS = [
   },
   {
     platform: "Email",
-    link: "loretokato@gmail.com",
+    link: "mailto:loretokato@gmail.com",
     icon: "/images/email.png",
   },
 ];

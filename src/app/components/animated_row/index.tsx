@@ -10,11 +10,17 @@ const AnimatedRow = ({
   index,
 }: AnimatedRowTypes) => {
   const { ref: rowRef, inView } = useInView({
-    triggerOnce: false,
-    threshold: 0.5,
+    triggerOnce: true,
+    threshold: 0.1,
   });
   return (
-    <div ref={rowRef} className={clsx(getStyles(inView, inverseStyle, index))}>
+    <div
+      ref={rowRef}
+      className={clsx(
+        getStyles(inView, inverseStyle, index),
+        "p-5 md:py-10 lg:text-5xl",
+      )}
+    >
       {text}
       {/* {inView} */}
     </div>

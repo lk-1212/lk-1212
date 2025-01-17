@@ -3,12 +3,18 @@ import React from "react";
 import AboutMe from "@/src/app/components/about_me";
 import Contacts from "@/src/app/components/contacts";
 import TextRow from "@/src/app/components/content_row";
+import { SCROLL_DOWN } from "./constants";
 
 const Home = (): React.ReactElement => {
   return (
-    <div className="flex flex-col text-center items-center justify-center h-screen">
-      <AboutMe />
-      <Contacts />
+    <div className="flex flex-col text-center items-center justify-center">
+      <div className="flex flex-col text-center items-center justify-center h-screen">
+        <AboutMe />
+        <Contacts />
+        <div className="py-5">
+          <p className="pt-8 animate-bounce md:text-2xl">{SCROLL_DOWN}</p>
+        </div>
+      </div>
       <div>
         <TextRow />
       </div>
