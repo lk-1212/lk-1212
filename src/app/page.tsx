@@ -11,7 +11,7 @@ const Home = (): React.ReactElement => {
       <div className="flex flex-col text-center items-center justify-center h-screen">
         <AboutMe />
         <Contacts />
-        <div className="py-5">
+        <div className="pt-5">
           <p className="pt-8 animate-bounce md:text-2xl">{SCROLL_DOWN}</p>
         </div>
       </div>
