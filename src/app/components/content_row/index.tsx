@@ -9,7 +9,10 @@ const ContentRow = () => {
       return (
         <div className={clsx("py-5 my-5 px-5")} key={index}>
           <AnimatedRow
+            title={item.title}
             text={item.text}
+            href={item.href}
+            linkText={item.linkText}
             inverseStyle={item.inverseStyle}
             index={index}
           />

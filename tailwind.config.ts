@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lora: ["Lora", "serif"],
+        montserrat: ["montserrat", "serif"],
+      },
       keyframes: {
         slideInRight: {
           "0%": { opacity: "0", transform: "translateX(1000px)" },

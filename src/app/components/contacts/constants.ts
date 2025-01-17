@@ -9,4 +9,9 @@ export const SOCIALS = [
     link: "mailto:loretokato@gmail.com",
     icon: "/images/email.png",
   },
+  {
+    platform: "Github",
+    link: "https://github.com/lk-1212",
+    icon: "/images/github.png",
+  },
 ];
