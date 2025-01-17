@@ -18,11 +18,10 @@ const AnimatedRow = ({
       ref={rowRef}
       className={clsx(
         getStyles(inView, inverseStyle, index),
-        "p-5 md:py-10 lg:text-5xl",
+        "p-5 md:py-10 lg:text-6xl",
       )}
     >
       {text}
-      {/* {inView} */}
     </div>
   );
 };

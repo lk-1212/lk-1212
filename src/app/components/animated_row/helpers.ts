@@ -2,7 +2,6 @@ export const getAnimatedStyles = (inverseStyle: boolean, index: number) => {
   if (isIndexAnOddNumber(index) && inverseStyle)
     return "animate-slide-in-right";
 
-
   return "animate-slide-in-left";
 };
 

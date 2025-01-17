@@ -1,1 +1,1 @@
-export const SCROLL_DOWN = 'Scroll Down'
+export const SCROLL_DOWN = "Scroll Down";
