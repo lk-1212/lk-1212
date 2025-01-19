@@ -6,7 +6,7 @@ export const TEXT_ROWS = [
     text: `Currently a junior front-end software engineer working on desktop and mobile web at <a class='text-purple-700' href='https://www.wearepion.com/'>Pion</a> (formely <a class='text-purple-700' href='https://www.studentbeans.com/uk'>StudentBeans</a>). When I'm not coding you'll find me diamond painting, podcasting, or editing content`,
   },
   {
-    title: "Years InBetween Podcast",
+    title: "Years InBetween Podcast🎙️",
     text: "A passion project that required data fetching and meets accessibility requirements",
     href: "https://yearsinbetween.vercel.app",
     linkText: CHEEKY_LOOK_TEXT,
