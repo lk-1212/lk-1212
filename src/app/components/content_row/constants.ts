@@ -7,7 +7,7 @@ export const TEXT_ROWS = [
   },
   {
     title: "Years InBetween Podcast🎙️",
-    text: "A passion project that required data fetching from the Youtube API and meets accessibility requirements. This site is a hub for all things Years InBetween, you can find all our long form content and direct access to all our social medias",
+    text: "A passion project that required data fetching from the Youtube API and meets accessibility requirements. This site is a hub for all things Years InBetween, you can find all our long form content and our social medias",
     href: "https://yearsinbetween.vercel.app",
     linkText: CHEEKY_LOOK_TEXT,
     inverseStyle: true,
