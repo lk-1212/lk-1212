@@ -184,9 +184,13 @@ const config: Config = {
   //   '^.+\\.(ts|tsx)$': 'ts-jest',
   // },
   
-  transform:{
-    '^.+\\.(ts|tsx)$': 'babel-jest',
-  },
+  // transform:{
+  //   '^.+\\.(ts|tsx)$': 'babel-jest',
+  // },
+
+    transform: {
+      '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { configFile: './jest.babel.config.js' }],
+    },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   transformIgnorePatterns: [
