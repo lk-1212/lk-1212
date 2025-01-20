@@ -15,7 +15,7 @@ describe("About me conmponent", () => {
     it("renders the job description", () => {
       render(<AboutMe />);
 
-      const jobDescription = screen.getByText("Junior FrontEnd Developer");
+      const jobDescription = screen.getByText("Junior FrontEnd Engineer");
 
       expect(jobDescription).toBeInTheDocument();
     });
