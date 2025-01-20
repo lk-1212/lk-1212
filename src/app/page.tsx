@@ -1,8 +1,8 @@
 import React from "react";
 
-import AboutMe from "@/src/app/components/about_me";
-import Contacts from "@/src/app/components/contacts";
-import TextRow from "@/src/app/components/content_row";
+import AboutMe from "@/src/components/about_me";
+import Contacts from "@/src/components/contacts";
+import TextRow from "@/src/components/content_row";
 import { SCROLL_DOWN } from "./constants";
 
 const Home = (): React.ReactElement => {
