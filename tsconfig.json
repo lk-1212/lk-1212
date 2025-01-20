@@ -21,7 +21,7 @@
     "baseUrl": ".",
     "paths": {
       "@/app/*": ["my-app-apps-router/src/app/*"],
-      "@/components/*": ["my-app-apps-router/src/components/*"],
+      "@/components/*": ["my-app-apps-router/src/components/*"]
 
       // "@/*": ["src/*"]
     }

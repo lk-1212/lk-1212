@@ -1,4 +1,6 @@
 "use client";
+import React from "react";
+
 import { useInView } from "react-intersection-observer";
 import { AnimatedRowTypes } from "./types";
 import clsx from "clsx";
